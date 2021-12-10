@@ -1,0 +1,258 @@
+body{
+    background-color:black;
+    margin: 0;
+}
+header{
+    height: 80px;
+    background-color:white;
+    margin: auto;
+}
+header div h1{
+
+    padding-left: 40px;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+header div h1 b{
+    color: coral;
+}
+.col-3{
+    width: 33%;
+    float: left;
+}
+.menu{
+    margin-top: 30px;
+}
+.menu li{
+    list-style-type: none; ;
+    display: inline;
+    padding-right: 20px;
+    color: #8e8e8e;
+}
+#getStartedBtn{
+    background-color: #6dc77a;
+    text-decoration: none;
+    padding: 10px 26px;
+    border-radius: 26px;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+#top-section-main{
+   
+    text-align: center;
+    background-image: url("../images/Friends.jpeg");
+    height: 740px;
+    margin: 0;
+}
+#top-section-content{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+#top-section-content h1{
+    margin: 0;
+    
+    font-size: 4em;
+}
+#top-section-content img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-section-content p{
+    
+    font-size: 1.3em;
+    font-weight: 800;
+    padding-bottom: 120px;
+}
+.main-form h5{
+ padding-top: 100px;
+ color: white;
+ font-family: sans-serif;
+}
+.main-form input{
+    width: 20%;
+    height: 40px;
+    font-family: sans-serif;
+   }
+.main-form button {
+    height: 45px;
+    width: 20%;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: #6dc77a;
+}
+#main-section {
+    background-color: white;
+    text-align: center;
+    
+}
+#main-section-top h1{
+    padding-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main-section-top h1 span{
+    background-color: #6dc77a;
+    color:white;
+}
+#main-section-mid1{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+aside img{
+    width: 100%;   
+}
+aside p{
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+.main-section-mid2{
+    background-color: wheat;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    gap: 30px;
+}
+.main-section-mid2 img{
+    width: 100%;
+}
+.center-text{
+    margin-top: 180px;
+    
+    
+    
+}
+.center-text h1,p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-section-bot
+{
+    background-image: url(../images/Darkdesk.jpeg);
+    height: 100%;
+    color: white;
+    background-position: center;
+}
+.main-section-bot h1{
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+}
+.main-section-bot h3{
+    margin: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+.btn-try-today{
+    margin:auto;
+    padding-bottom: 80px;
+    
+}
+.btn-try-today a:hover{
+    background-color: green;
+    color: yellow;
+}
+.main-section-bot a{
+    padding: 25px 60px 25px 60px;
+    background-color: #6dc77a;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+.upper-footer
+{
+background-color: white;
+display: flex;
+
+
+}
+.left-footer{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.left-footer h1{
+    margin: 0px 60px 0px 60px;
+    
+}
+.left-footer p{
+    padding-top: 20px;
+    margin: auto;
+    font-style: italic;
+}
+.right-footer{
+    margin: 0px;
+    background-color: whitesmoke;
+    width: 40%;
+    margin:20px 300px 0px 10px
+}
+
+.right-footer input{
+    margin: auto;
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+}
+
+.right-footer button{
+    margin: auto;
+    width: 73%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #6dc77a;
+    color: white;
+    border: none;
+    
+}
+footer{
+    background-image: url(../images/Footerbg.jpeg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+.img-flex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img-flex img{
+    height: 50px;
+    width: 40px;
+    padding: 20% 45%;
+}
+.img-flex img:hover{
+background-color: black;
+opacity: 50%;
+}
+footer{
+    text-align: center;
+    color: white;
+    
+}
